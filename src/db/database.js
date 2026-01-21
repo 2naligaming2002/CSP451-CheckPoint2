@@ -1,3 +1,5 @@
+const env = process.env.NODE_ENV || "development";
+console.log("Running in environment:", env);
 const config = {
   host: "localhost",
   port: 5432,
