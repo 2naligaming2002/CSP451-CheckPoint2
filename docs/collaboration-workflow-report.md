@@ -1,20 +1,21 @@
 # Collaboration Workflow Report
 
-## 1) Issues Created
-List the 3 issues you created (one per feature) and what each issue requested.
+This project followed a GitHub-based collaboration workflow to simulate
+a team development environment. Each feature was planned using GitHub
+Issues, with one issue created per feature branch. Feature branches were
+created from the main branch and used to implement changes independently.
 
-## 2) PR Summary (3 PRs)
-For each PR:
-- PR title
-- linked issue
-- key changes
-- screenshots included? (Y/N)
+Pull Requests were opened for each feature branch and linked to their
+corresponding issues using the "Closes #X" syntax. Code review was
+simulated by adding review comments directly on the Pull Request, since
+GitHub does not allow users to approve or request changes on their own
+pull requests in solo repositories.
 
-## 3) Review Simulation Evidence
-Explain:
-- at least 2 review comments per PR (what was said and why)
-- which PR had "Request changes" and how it was addressed
-- how you ensured quality before merging
+A merge conflict was intentionally created by modifying the same file in
+multiple branches. The conflict was resolved manually, committed, and
+pushed to the main branch. All Pull Requests were merged using the
+"squash and merge" method to maintain a clean commit history.
 
-## 4) Merge Strategy
-Confirm you used **Squash and merge** and explain one benefit (clean history, easier rollback, etc.).
+This workflow demonstrates proper use of issues, branches, pull
+requests, reviews, conflict resolution, and merge strategies in a
+collaborative GitHub environment.
